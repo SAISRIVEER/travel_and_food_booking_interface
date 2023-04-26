@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Travel and Food Booking Service</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+  </head>
+  <body>
+    <header>
+      <h1>Travel and Food Booking Service</h1>
+      <nav>
+        <ul>
+          <li><a href="#travel">Travel Booking</a></li>
+          <li><a href="#order">FOOD Booking</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="travel" class="img1">
+      <h2>Travel Booking</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="destination">Destination:</label>
+        <input type="text" id="destination" name="destination" required>
+
+        <label for="departure-date">Departure Date:</label>
+        <input type="date" id="departure-date" name="departure-date" required>
+
+        <label for="return-date">Return Date:</label>
+        <input type="date" id="return-date" name="return-date" required>
+
+        <button type="submit">Book Travel</button>
+      </form>
+    </section>
+
+    <section id="order" class="img2">
+      <h2>Food Booking</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="item">Item:</label>
+        <input type="text" id="item" name="item" required>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" required>
+
+        <button type="submit">Book Order</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Travel and Order Booking Service</p>
+    </footer>
+  </body>
+</html>
